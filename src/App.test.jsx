@@ -20,6 +20,6 @@ describe('App', () => {
     fireEvent.click(button)
     
     // Count should increase by 5 as per your implementation
-    expect(button.textContent).toContain('count is 1')
+    expect(button.textContent).toContain('count is 5')
   })
 })
