@@ -7,5 +7,6 @@ export default defineConfig({
     environment: 'jsdom',
     setupFiles: './setup.js',
     globals: true
-  }
+  },
+  base: '/github-pages-demo/'
 })
